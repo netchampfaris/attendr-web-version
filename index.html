@@ -1,27 +1,32 @@
-<!doctype html>
-<html class="no-js">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-  <title>Attendr</title>
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <meta charset="UTF-8">
+    <title>Attendr</title>
+  <style>
+    #over {
+      background-image: url("android.jpg");
+      background-repeat: no-repeat;
+      height: 700px;
+      width: 408px;
+      position: relative;
+      left: 50%;
+      margin-left: -204px;
+    }
 
-    <meta name="format-detection" content="telephone=no">
+    iframe {
+      position: relative;
+      left: 46px;
+      top: 56px;
+      height: 560px;
+      width: 316px;
+    }
 
-    <!-- inject:app-styles:css --><link rel="stylesheet" href="styles/main-259e770cda.css"><!-- endinject -->
-    <!-- uncomment if using your own iconfont -->
-    <!-- <link rel="stylesheet" href="styles/own-icons.css"> -->
+  </style>
 </head>
-<body ng-app="Hazri">
-
-<ion-nav-bar class="bar-header bar-positive" align-title="left">
-</ion-nav-bar>
-<ion-nav-view></ion-nav-view>
-
-<!-- inject:vendor:js --><script src="vendor-7a8bfd3471.js"></script><!-- endinject -->
-<!-- inject:app:js --><script src="scripts/app-512b0db637.js"></script><!-- endinject -->
-
-<script src="cordova.js"></script>
-
+<body>
+<div id="over">
+  <iframe src="index2.html" frameborder="0"></iframe>
+</div>
 </body>
 </html>
